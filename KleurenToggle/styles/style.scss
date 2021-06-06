@@ -1,0 +1,139 @@
+@import './variables';
+
+
+
+body {
+    background-color: lightgray;
+}
+
+
+h1 {
+    font-size: 80px;
+    margin: 0px 440px;
+
+
+
+}
+.home-background {
+    background: lightgray;
+}
+
+.green-background {
+    background: green;
+}
+
+
+.yellow-background {
+    background: yellow;
+}
+
+
+.red-background {
+    background: red;
+}
+
+.purple-background {
+    background: purple;
+}
+
+.blue-background {
+    background: blue;
+}
+
+
+
+
+
+
+.hamburger {
+
+    transition: 500ms ease-in-out;
+    
+    &:hover {
+        cursor:grab;
+        
+    }
+}
+
+
+
+.menu {
+
+  display: flex;
+  flex-direction: column;;
+  width: 20%;
+  font-weight: 600;
+  
+  
+  visibility: hidde;
+
+}
+
+
+/*
+
+.menu:nth-child(1) {
+    transition-delay: 0.1s;
+}
+
+.nav-item:nth-child(2) {
+    transition-delay: 0.2s;
+}
+
+.nav-item:nth-child(3) {
+    transition-delay: 0.3s;
+}
+
+.nav-item:nth-child(4) {
+    transition-delay: 0.4s;
+}
+
+*/
+
+
+
+
+
+
+.home {
+
+    @include style;
+    background: lightgray;
+
+}
+
+.green {
+
+    @include style;
+    background: green;
+    
+}
+
+.yellow {
+
+    @include style;
+    background: yellow;
+   
+}
+
+.red {
+    
+    @include style;
+    background: red;
+    
+}
+
+.purple {
+
+    @include style;
+    background: purple;
+ 
+}
+
+
+.blue {
+
+    @include style;
+    background: blue;
+ 
+}
